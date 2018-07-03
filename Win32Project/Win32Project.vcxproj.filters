@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\app\app.cpp">
+      <Filter>source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\imgui_draw.cpp">
+      <Filter>source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\imgui_impl_dx11.cpp">
+      <Filter>source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\imgui.cpp">
+      <Filter>source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\imgui_demo.cpp">
+      <Filter>source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\renderer\app_renderer.cpp">
+      <Filter>source\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lib\vector.cpp">
+      <Filter>source\lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\app\app.h">
+      <Filter>source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gui\imgui_impl_dx11.h">
+      <Filter>source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gui\imgui_internal.h">
+      <Filter>source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gui\stb_rect_pack.h">
+      <Filter>source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gui\stb_textedit.h">
+      <Filter>source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gui\stb_truetype.h">
+      <Filter>source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gui\imconfig.h">
+      <Filter>source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gui\imgui.h">
+      <Filter>source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\renderer\app_renderer.h">
+      <Filter>source\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lib\vector.h">
+      <Filter>source\lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{f34a030d-286c-4a41-a7ab-894aa81fcb0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\app">
+      <UniqueIdentifier>{e42cca67-b5be-4d5a-ad12-cb7b68be5984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{5234bdb4-51b7-45a3-b7b4-9076a05cdd46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\gui">
+      <UniqueIdentifier>{4705c8dd-85b2-4d98-8b7e-514e9a7286b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\renderer">
+      <UniqueIdentifier>{04c09664-e8cb-4628-885b-3112e306a376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\lib">
+      <UniqueIdentifier>{6205fe07-1a2b-4847-a0c9-f2dc7705506f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
