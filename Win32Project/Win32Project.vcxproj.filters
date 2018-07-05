@@ -25,6 +25,9 @@
     <ClCompile Include="source\lib\vector.cpp">
       <Filter>source\lib</Filter>
     </ClCompile>
+    <ClCompile Include="source\lib\color.cpp">
+      <Filter>source\lib</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\app\app.h">
@@ -55,6 +58,9 @@
       <Filter>source\renderer</Filter>
     </ClInclude>
     <ClInclude Include="source\lib\vector.h">
+      <Filter>source\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lib\color.h">
       <Filter>source\lib</Filter>
     </ClInclude>
   </ItemGroup>

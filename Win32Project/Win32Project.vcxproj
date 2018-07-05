@@ -24,6 +24,7 @@
     <ClCompile Include="source\gui\imgui_demo.cpp" />
     <ClCompile Include="source\gui\imgui_draw.cpp" />
     <ClCompile Include="source\gui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="source\lib\color.cpp" />
     <ClCompile Include="source\lib\vector.cpp" />
     <ClCompile Include="source\main.cpp" />
     <ClCompile Include="source\renderer\app_renderer.cpp" />
@@ -37,6 +38,7 @@
     <ClInclude Include="source\gui\stb_rect_pack.h" />
     <ClInclude Include="source\gui\stb_textedit.h" />
     <ClInclude Include="source\gui\stb_truetype.h" />
+    <ClInclude Include="source\lib\color.h" />
     <ClInclude Include="source\lib\vector.h" />
     <ClInclude Include="source\renderer\app_renderer.h" />
   </ItemGroup>
