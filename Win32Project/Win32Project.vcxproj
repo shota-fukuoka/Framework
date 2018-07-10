@@ -28,6 +28,10 @@
     <ClCompile Include="source\lib\vector.cpp" />
     <ClCompile Include="source\main.cpp" />
     <ClCompile Include="source\renderer\app_renderer.cpp" />
+    <ClCompile Include="source\renderer\renderer.cpp" />
+    <ClCompile Include="source\renderer\render_manager.cpp" />
+    <ClCompile Include="source\texture\texture.cpp" />
+    <ClCompile Include="source\texture\texture_manager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\app\app.h" />
@@ -39,8 +43,14 @@
     <ClInclude Include="source\gui\stb_textedit.h" />
     <ClInclude Include="source\gui\stb_truetype.h" />
     <ClInclude Include="source\lib\color.h" />
+    <ClInclude Include="source\lib\utility.h" />
     <ClInclude Include="source\lib\vector.h" />
     <ClInclude Include="source\renderer\app_renderer.h" />
+    <ClInclude Include="source\renderer\renderer.h" />
+    <ClInclude Include="source\renderer\render_manager.h" />
+    <ClInclude Include="source\texture\stb_image.h" />
+    <ClInclude Include="source\texture\texture.h" />
+    <ClInclude Include="source\texture\texture_manager.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="icon.rc" />
@@ -121,7 +131,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\60120\Desktop\Framework\Win32Project\source\renderer;C:\Users\60120\Desktop\Framework\Win32Project\source;C:\Users\60120\Desktop\Framework\Win32Project\source\app;C:\Users\60120\Desktop\Framework\Win32Project\source\gui;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\60120\Desktop\Framework\Win32Project\source\lib;C:\Users\60120\Desktop\Framework\Win32Project\source\renderer;C:\Users\60120\Desktop\Framework\Win32Project\source;C:\Users\60120\Desktop\Framework\Win32Project\source\app;C:\Users\60120\Desktop\Framework\Win32Project\source\gui;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -155,7 +165,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\60120\Desktop\Framework\Win32Project\source\renderer;C:\Users\60120\Desktop\Framework\Win32Project\source;C:\Users\60120\Desktop\Framework\Win32Project\source\app;C:\Users\60120\Desktop\Framework\Win32Project\source\gui;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\60120\Desktop\Framework\Win32Project\source\lib;C:\Users\60120\Desktop\Framework\Win32Project\source\renderer;C:\Users\60120\Desktop\Framework\Win32Project\source;C:\Users\60120\Desktop\Framework\Win32Project\source\app;C:\Users\60120\Desktop\Framework\Win32Project\source\gui;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>

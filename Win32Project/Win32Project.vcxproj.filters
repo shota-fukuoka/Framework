@@ -28,6 +28,18 @@
     <ClCompile Include="source\lib\color.cpp">
       <Filter>source\lib</Filter>
     </ClCompile>
+    <ClCompile Include="source\renderer\render_manager.cpp">
+      <Filter>source\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\renderer\renderer.cpp">
+      <Filter>source\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\texture\texture.cpp">
+      <Filter>source\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\texture\texture_manager.cpp">
+      <Filter>source\texture</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\app\app.h">
@@ -63,6 +75,24 @@
     <ClInclude Include="source\lib\color.h">
       <Filter>source\lib</Filter>
     </ClInclude>
+    <ClInclude Include="source\renderer\render_manager.h">
+      <Filter>source\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\renderer\renderer.h">
+      <Filter>source\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lib\utility.h">
+      <Filter>source\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="source\texture\texture.h">
+      <Filter>source\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="source\texture\texture_manager.h">
+      <Filter>source\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="source\texture\stb_image.h">
+      <Filter>source\texture\stb_image</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="source">
@@ -82,6 +112,21 @@
     </Filter>
     <Filter Include="source\lib">
       <UniqueIdentifier>{6205fe07-1a2b-4847-a0c9-f2dc7705506f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\object">
+      <UniqueIdentifier>{29596a4a-1dd0-43a5-9bb0-74144c7834da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\material">
+      <UniqueIdentifier>{6a4cde43-1e60-4f3f-bbbe-5b537ce6597f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\texture">
+      <UniqueIdentifier>{2d1232d6-bdc4-43b6-8086-3e4e1346e646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\shader">
+      <UniqueIdentifier>{7a79d490-8142-4773-8a74-7f4ee98d9a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\texture\stb_image">
+      <UniqueIdentifier>{93bcb1ab-e95d-43ca-82d1-8e8037b581e3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

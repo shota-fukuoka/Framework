@@ -1,6 +1,6 @@
 //=============================================================================
 //
-// directxレンダリング処理 [rendere.h]
+// app_rendere.h
 // Author : SHOTA FUKUOKA
 //
 //=============================================================================
@@ -17,7 +17,8 @@
 #include <Effekseer.h>
 #include <EffekseerRendererDX11.h>
 
-#include "../lib/vector.h"
+#include "vector.h"
+#include "color.h"
 
 //*****************************************************************************
 // ライブラリファイル
@@ -29,21 +30,9 @@
 #pragma comment (lib, "dinput8.lib")
 
 //*****************************************************************************
-// マクロ定義
-//*****************************************************************************
-#define D3D_PI ((FLOAT) 3.141592654f) 
-#define D3DToRadian( degree ) ((degree) * (D3D_PI / 180.0f))
-#define D3DToDegree( radian ) ((radian) * (180.0f / D3D_PI))
-#define NUM_VERTEX (4)
-//*****************************************************************************
 //構造体定義
 //*****************************************************************************
 class RenderManager;
-class DeferredRenderer;
-class EffectManager;
-class Bure;
-class DownFilter;
-class Bloom;
 
 //*****************************************************************************
 // クラス定義
@@ -56,7 +45,6 @@ public:
 	{
 		VECTOR3 position;
 		VECTOR3 normal;
-		VECTOR4 color;
 		VECTOR2 tex;
 	};
 
@@ -64,7 +52,6 @@ public:
 	struct Vertex2D
 	{
 		VECTOR3 position;
-		VECTOR4 color;
 		VECTOR2 tex;
 	};
 
@@ -74,10 +61,7 @@ public:
 		XMMATRIX world;
 		XMMATRIX view;			
 		XMMATRIX projection;
-		XMMATRIX lightView;		
-		XMMATRIX lightProjection;
-		XMVECTOR light;
-		VECTOR4	 color;
+		COLOR color;
 	};
 
 	//デストラクタ

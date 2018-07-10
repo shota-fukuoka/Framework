@@ -30,3 +30,6 @@
 x64/Debug/GeometryGrass.cso
 .vs/Win32Project/v15/ipch/AutoPCH/753c5b16463dec23/VECTOR.ipch
 .vs/Win32Project/v15/ipch/AutoPCH/301960e382fc468f/COLOR.ipch
+.vs/Win32Project/v15/ipch/AutoPCH/90ddbed3856a653d/TEXTURE.ipch
+.vs/Win32Project/v15/ipch/AutoPCH/8b1b308d5a87c5d5/RENDERER.ipch
+.vs/Win32Project/v15/ipch/AutoPCH/12680fbc7e156661/TEXTURE_MANAGER.ipch
